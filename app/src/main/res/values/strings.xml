@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">GitHub Followers</string>
+
+    <string name="startUserNickName">JakeWharton</string>
+
+    <string name="entreNickNameHint">User nickname</string>
+
+    <string name="followers_screen_title">GH followers of %s</string>
+    <string name="followers_empty_list">No followers =(</string>
+
+    <string name="find_user_hint">Please enter github user nickname\ne.g. JakeWharton</string>
+    <string name="find_details">Find details</string>
+
+    <string name="user_nick_name_prefix">nickname: %s</string>
+    <string name="user_stats_prefix">followers %s / following %s</string>
+
+    <!--Errors-->
+    <string name="error_data_load">Failed to load data</string>
+    <string name="error_data_load_ui">Oops!\nSomething gone wrong =(</string>
+    <string name="user_avatar">User avatar</string>
+
+</resources>
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/enterUserFragment">
+
+    <fragment
+        android:id="@+id/enterUserFragment"
+        android:name="com.test.gitsubs.ui.enter_user_name.EnterUserLoginNameView"
+        android:label="FollowerListFragment"
+        tools:layout="@layout/fragment_enter_login_name">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/followerListFragment"
+        android:name="com.test.gitsubs.ui.user_followers.FollowerListView"
+        android:label="FollowerListFragment"
+        tools:layout="@layout/fragment_user_list">
+
+        <argument
+            android:name="userNickName"
+            app:argType="string" />
+    </fragment>
+
+    <action
+        android:id="@+id/action_enterUser_to_followerListFragment"
+        app:destination="@id/followerListFragment"
+        app:enterAnim="@anim/nav_default_enter_anim"
+        app:exitAnim="@anim/nav_default_exit_anim"
+        app:popUpToInclusive="false" />
+</navigation>

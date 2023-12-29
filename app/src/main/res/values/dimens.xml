@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="app_bar_height">146dp</dimen>
+    <dimen name="app_bar_user_icon">68dp</dimen>
+</resources>
